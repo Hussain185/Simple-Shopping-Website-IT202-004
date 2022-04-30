@@ -126,21 +126,21 @@
 
 
 - Milestone 3
-- [ ] \(4/25/2022) Feature Title (User will be able to purchase items in their Cart)
+- [x] \(4/25/2022) Feature Title (User will be able to purchase items in their Cart)
   -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone3/public_html/Project/milestone3.md)
     -   [User-Cart](https://msh52-prod.herokuapp.com/Project/cart.php)
     -   [Checkout](https://msh52-prod.herokuapp.com/Project/checkout.php?Checkout=)
 
-- [ ] \(4/27/2022) Feature Title (Order Confirmation Page)
+- [x] \(4/27/2022) Feature Title (Order Confirmation Page)
   -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone3/public_html/Project/milestone3.md)
     -   [Confirmation Page](https://msh52-prod.herokuapp.com/Project/confirmation.php?id=4)
 
-- [ ] \(4/27/2022) Feature Title (User will be able to see their Purchase History)
+- [x] \(4/27/2022) Feature Title (User will be able to see their Purchase History)
   -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone3/public_html/Project/milestone3.md)
     -   [Order History](https://msh52-prod.herokuapp.com/Project/product_details_page.php?id=2)
     -   [Order History](https://msh52-prod.herokuapp.com/Project/product_history.php)
 
-- [ ] \(4/27/2022) Feature Title (Store Owner will be able to see all Purchase History)
+- [x] \(4/27/2022) Feature Title (Store Owner will be able to see all Purchase History)
   -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone3/public_html/Project/milestone3.md)
     -   [Purchase History](https://msh52-prod.herokuapp.com/Project/product_history.php)
     -   [Product History](https://msh52-prod.herokuapp.com/Project/product_details_page.php?id=1)
