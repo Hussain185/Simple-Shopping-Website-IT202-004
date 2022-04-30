@@ -4,7 +4,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
 ?>
 <?php
     $results =[];
-    //checking for payment method
+    //asking for country
     if(isset($_POST["button_order"])){
         if(empty($_POST["payment_check"])){
             flash("Please enter payment_check", "alert");
@@ -27,6 +27,9 @@ require_once(__DIR__ . "/../../lib/functions.php");
             if(!empty ($_POST["apt"])){
                 $full_address = join(" , ",[ $_POST["address"],$_POST["apt"], $_POST["city"], $_POST["state"], $_POST["zipcode"], $_POST["country"] ]);
             }
+            //payment method
+            //msh52
+            //4/29/22
             $payment_method = $_POST["payment"];
             $payment_check = $_POST["payment_check"];
             if ($payment_check == $_POST["ordertotal"]){
