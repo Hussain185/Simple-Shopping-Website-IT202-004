@@ -3,6 +3,7 @@ require(__DIR__ . "/../../partials/nav.php");
 require_once(__DIR__ . "/../../lib/functions.php");
 ?>
 <?php
+//Order History changing and seen by catagory and stuff different for admin 
     $results = [];
     $user_id = get_user_id();
     $db = getDB();
