@@ -3,7 +3,7 @@ require(__DIR__ . "/../../partials/nav.php");
 require_once(__DIR__ . "/../../lib/functions.php");
 ?>
 <?php
-        
+        //product rating
         if(isset($_POST["submit"])){
             $store_rating = $_POST["rating"];
             if(isset($_POST["comment"])){
@@ -11,7 +11,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                 $store_user_id = $_POST["uid"];
                 $store_product_id = $_POST["pid"];
             }
-            //rating($store_product_id,$store_user_id,$store_rating,$store_comment);
+           
         }
     $results = [];
     $results1 = [];
@@ -38,23 +38,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
     } catch (PDOException $e) {
         flash("<pre>" . var_export($e, true) . "</pre>");
     }
-    //print_r($results);
-    //echo '<br/>';
-    //print_r($results1);
-    /*$results = [];
-    $order_id = se($_GET, "id", 0, false);
-    $db = getDB();
-    $stmt = $db->prepare("SELECT DISTINCT Orders.id, Orders.user_id, Orders.total_price, Orders.address , Orders.payment_method, OrderItems.order_id , OrderItems.product_id , OrderItems.quantity , OrderItems.unit_price FROM Orders JOIN OrderItems on Orders.id = OrderItems.order_id WHERE Orders.id =:id");
-    try {
-        $stmt->execute([":id"=> $order_id]);
-        $r = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        if ($r) {
-            $results = $r;
-        }
-    } catch (PDOException $e) {
-        flash("<pre>" . var_export($e, true) . "</pre>"); 
-    }  
-    print_r($results);*/
+
 ?>
 <div class="container-fluid">
     <h1 id ="noflex" >Order Detail</h1>
