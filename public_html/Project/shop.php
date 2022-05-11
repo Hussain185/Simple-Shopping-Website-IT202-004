@@ -1,6 +1,6 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
-
+//sort by average rating product out of stock
 $results = [];
 $db = getDB();
 //Sort and Filters
@@ -47,7 +47,7 @@ $params[":offset"] = $offset;
 $params[":count"] = $per_page;
 //get the records
 $stmt = $db->prepare($base_query . $query); //dynamically generated query
-//we'll want to convert this to use bindValue so ensure they're integers so lets map our array
+
 foreach ($params as $key => $value) {
     $type = is_int($value) ? PDO::PARAM_INT : PDO::PARAM_STR;
     $stmt->bindValue($key, $value, $type);
@@ -55,7 +55,7 @@ foreach ($params as $key => $value) {
 $params = null; //set it to null to avoid issues
 
 
-//$stmt = $db->prepare("SELECT id, name, description, cost, stock, image FROM BGD_Items WHERE stock > 0 LIMIT 50");
+
 try {
     $stmt->execute($params); //dynamically populated params to bind
     $r = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -194,7 +194,7 @@ try {
                     <div class="card-body">
                         <h5 class="card-title">Name: <?php se($item, "name"); ?></h5>
                         <p class="card-text">Description: <?php se($item, "description"); ?></p>
-                        <p  style="margin-bottom: 0px;"><u>Average rating:</u><?php se($item, "average_rating"); ?></p>
+                        <p  style="margin-bottom: 0px;"><u>Average rating: </u><?php se($item, "average_rating"); ?></p>
                     </div>
                     <div class="card-footer">
                         Cost: <?php se($item, "cost"); ?>
