@@ -126,6 +126,7 @@
 
 
 - Milestone 3
+
 - [x] \(4/25/2022) Feature Title (User will be able to purchase items in their Cart)
   -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone3/public_html/Project/milestone3.md)
     -   [User-Cart](https://msh52-prod.herokuapp.com/Project/cart.php)
@@ -149,8 +150,40 @@
 
 
 - Milestone 4
-  - (duplicate template here for Milestone 1 features)
-  - 
+- [x] \(4/30/2022) Feature Title (User can set their profile to be public or private (will need another column in Users table))
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [Profile](https://msh52-prod.herokuapp.com/Project/profile.php)
+
+
+- [x] \(4/27/2022) Feature Title (User will be able to rate a product they purchased)
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [Rate Product](https://msh52-prod.herokuapp.com/Project/product_details_page.php?id=2)
+
+- [x] \(4/27/2022) Feature Title (User's Purchase History Changes)
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [History](https://msh52-prod.herokuapp.com/Project/product_history.php)
+
+
+- [x] \(4/27/2022) Feature Title (Store Owner Purchase History Changes)
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [History](https://msh52-prod.herokuapp.com/Project/product_history.php)
+
+
+- [x] \(5/11/2022) Feature Title (Add pagination to Shop Page (and any other product lists not yet mentioned)
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [User-Cart](https://msh52-prod.herokuapp.com/Project/cart.php)
+    -   [Checkout](https://msh52-prod.herokuapp.com/Project/checkout.php?Checkout=)
+
+- [x] \(5/11/2022) Feature Title (Store Owner will be able to see all products out of stock)
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [Shop](https://msh52-prod.herokuapp.com/Project/shop.php)
+
+- [x] \(5/11/2022) Feature Title (User can sort products by average rating on the Shop Page)
+  -  [Milestone 3](https://github.com/Hussain185/IT202-004/blob/Milestone4/public_html/Project/milestone4.md)
+    -   [Shop](https://msh52-prod.herokuapp.com/Project/shop.php)
+
+
+
 ### Intructions
 #### Don't delete this
 1. Pick one project type
