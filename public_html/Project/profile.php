@@ -140,8 +140,8 @@ try {
     <?php endif; ?>
     <?php if (!$edit) : ?>
         <?php if ($public) : ?>
-            <div>Email Address: <?php se($email); ?></div>
-        <div>Joined: <?php se($created); ?></div>
+            <div>Profile: Public <?php  ?></div>
+        
         <?php endif; ?>
         <div>Username: <?php se($username); ?></div>
     <?php endif; ?>
