@@ -153,7 +153,7 @@ try {
                     <option value="stock">Stock</option>
                     <option value="name">Name</option>
                     <option value="created">Created</option>
-                    <option value="average_rating"></option>
+                    <option value="average_rating">Average Rating</option>
                     <?php if (has_role("Admin")) : ?>
                         <option value="out_stock">Out of Stock</option>
                     <?php endif; ?>
@@ -194,7 +194,7 @@ try {
                     <div class="card-body">
                         <h5 class="card-title">Name: <?php se($item, "name"); ?></h5>
                         <p class="card-text">Description: <?php se($item, "description"); ?></p>
-                        <p  style="margin-bottom: 0px;"><u> </u><?php se($item, "average_rating"); ?></p>
+                        <p  style="margin-bottom: 0px;"><u>Average rating:</u><?php se($item, "average_rating"); ?></p>
                     </div>
                     <div class="card-footer">
                         Cost: <?php se($item, "cost"); ?>
